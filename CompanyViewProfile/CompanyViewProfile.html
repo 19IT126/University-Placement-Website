@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CompanyViewProfile.css" />
+    <title>Company Profile</title>
+</head>
+<body>
+    <div class="root-container">
+        <div class="inner-container">
+    
+            <section class="header">
+                <h4>Company - Profile</h4>
+            </section>
+    
+            <div class="box">
+                <div class="split right">
+    
+                    <div class="input-group">
+                        <label htmlFor="name" style="margin-right: 110px;" >Name</label>
+                        <input type="text" name="name" placeholder="Company Name" class="inputbox" size="40" required />
+                    </div>
+    
+                    <div class="input-group">
+                        <label htmlFor="owner" style=" margin-right:60px">Owner Name</label>
+                        <input type="text" name="owner" placeholder="Owner Name" class="inputbox" size="40" required />
+                    </div>
+    
+                    <div class="input-group">
+                        <label htmlFor="ceo" style="margin-right:120px" >CEO</label>
+                        <input type="text" name="ceo" placeholder="CEO's Name" class="inputbox" size="40" required />
+                    </div>
+    
+                    <div class="input-group" >
+                        <label htmlFor="address" style=" vertical-align: top ; margin-right : 95px">Address</label>
+                        <textarea name="address" placeholder="Address" class="inputbox" rows="5" cols="100" required ></textarea>
+                    </div>
+    
+                    <div class="input-group">
+                        <label htmlFor="yoe">Year of Establishment</label>
+                        <input type="text" name="yoe" placeholder="Year of Establishment" class="inputbox" size="40" maxLength="4" required />
+                    </div>
+    
+                    <div class="input-group">
+                        <label htmlFor="branches" style= "margin-right: 40px" >No. of Branches</label>
+                        <input type="number" name="branches" placeholder="Total branches" class="inputbox" size="40" required />
+                    </div>    
+                    
+                    <div class="input-group">
+                        <label htmlFor="employees" style= "margin-right: 30px" >No. of Employees</label>
+                        <select name="employees" id="employees" class="inputbox">
+                            <option value=">20">Less than 20</option>
+                            <option value="20-50">Between 20-50</option>
+                            <option value="50-75">Between 50-75</option>
+                            <option value=">75">Greater then 75</option>
+                        </select>
+                    </div>
+                   
+                    <footer>
+                        <p>Copyright @ 2021, Inc. All Rights Reserved</p>
+                    </footer>
+    
+                </div>
+            </div>
+    
+        </div>
+    
+    </div>
+</body>
+</html>

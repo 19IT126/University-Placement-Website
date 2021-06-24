@@ -1,0 +1,131 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="StudentDashboard.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Raleway:wght@500&display=swap"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="dashboard.png">
+
+    <title>DashBoard</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+
+    <div class="dropdown">
+      <button class="dropbtn">19IT131
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="">Dashboard</a>
+        <a href="../StudentViewProfile/StudentViewProfile.html">Edit profile</a>
+        <a onclick="myFunction()"> Sign-out </a>
+      </div>
+    </div>
+    <a href="#news">News</a>
+    <a href="../main.html">Home</a>
+    <a href="" class="heading">University Placements</a>
+  </nav>
+
+  <h1>DashBoard</h1>
+  <hr>
+
+  <div class="table">
+    <section>
+      <!--for demo wrap-->
+      <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Index</th>
+              <th>Company</th>
+              <th>Technology</th>
+              <th>No of Openings</th>
+              <th>Company's Website</th>
+              <th>Application</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Google </td>
+              <td>ASP.NET</td>
+              <td>10</td>
+              <td><a href="https://www.google.com" target="_blank">www.google.com</a></td>
+              <td><button>Apply</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Microsoft</td>
+              <td>Visual C++</td>
+              <td>5</td>
+              <td><a href="https://careers.microsoft.com/" target="_blank">careers.microsoft.com/</a></td>
+              <td><button>Apply</button></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Amazon</td>
+              <td>Javascript</td>
+              <td>8</td>
+              <td><a href="https://www.amazon.jobs/" target="_blank">www.amazon.jobs/</a></td>
+              <td><button>Apply</button></td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>ADITYA BIRLA</td>
+              <td>Java</td>
+              <td>15</td>
+              <td><a href="https://www.adityabirla.com/" target="_blank">www.adityabirla.com/</a></td>
+              <td><button>Apply</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Goldman Sachs</td>
+              <td>Python</td>
+              <td>2</td>
+              <td><a href="https://www.goldmansachs.com/" target="_blank">www.goldmansachs.com/</a></td>
+              <td><button>Apply</button></td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>BlueInfy Solutions</td>
+              <td>.NET</td>
+              <td>4</td>
+              <td><a href="https://www.blueinfy.com/" target="_blank">www.blueinfy.com/</a></td>
+              <td><button>Apply</button></td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function myFunction() {
+
+      if (confirm("Are you sure you want to sign out?")) {
+        window.location.href = "../main.html";
+      }
+
+      else {
+
+      }
+
+    }
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="CompanyDashBoard.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Raleway:wght@500&display=swap"
+    rel="stylesheet">
+    <link rel="icon" type="image/png" href="dashboard.png">
+
+    <title>DashBoard</title>
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+
+    <div class="dropdown">
+      <button class="dropbtn">BlueInfy
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="">Dashboard</a>
+        <a href="../CompanyViewProfile/CompanyViewProfile.html">Edit profile</a>
+        <a onclick="myFunction()"> Sign-out </a>
+      </div>
+    </div>
+    <a href="#news">News</a>
+    <a href="../main.html">Home</a>
+    <a href="" class="heading">University Placements</a>
+  </nav>
+
+  <h1>DashBoard</h1>
+  <hr>
+
+  <div class="table">
+    <section>
+      <!--for demo wrap-->
+      <div class="tbl-header">
+        <table cellpadding="0" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Index</th>
+              <th>Student Name</th>
+              <th>Student Email</th>
+              <th>CGPA</th>
+              <th>Student Profile</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+        </table>
+      </div>
+      <div class="tbl-content">
+        <table cellpadding="0" cellspacing="0">
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Kirtan Shah</td>
+              <td>19it132@charusat.edu.in</td>
+              <td>9.68</td>
+              <td><a href="https://github.com/Kirtanshah2303" target="_blank">Kirtanshah2303</a></td>
+              <td><button style="background-color: rgb(14, 238, 14);">Select</button><button
+                  style="background-color: rgb(245, 62, 62);">Decline</button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Axat Shah</td>
+              <td>19it126@charusat.edu.in</td>
+              <td>9.77</td>
+              <td><a href="https://github.com/axatshah" target="_blank">Axatshah</a></td>
+              <td><button style="background-color: rgb(14, 238, 14);">Select</button><button
+                  style="background-color: rgb(245, 62, 62);">Decline</button></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Kavya Shah</td>
+              <td>19it131@charusat.edu.in</td>
+              <td>9.89</td>
+              <td><a href="https://github.com/kavyashah" target="_blank">Kavyashah</a></td>
+              <td><button style="background-color: rgb(14, 238, 14);">Select</button><button
+                  style="background-color: rgb(245, 62, 62);">Decline</button></td>
+
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Viraj Patva</td>
+              <td>19it117@charusat.edu.in</td>
+              <td>9.40</td>
+              <td><a href="https://github.com/virajpatva" target="_blank">Virajpatva</a></td>
+              <td><button style="background-color: rgb(14, 238, 14);">Select</button><button
+                  style="background-color: rgb(245, 62, 62);">Decline</button></td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Khushi Parikh</td>
+              <td>19it077@charusat.edu.in</td>
+              <td>9.91</td>
+              <td><a href="https://github.com/khushiparikh" target="_blank">Khushiparikh</a></td>
+              <td><button style="background-color: rgb(14, 238, 14);">Select</button><button
+                  style="background-color: rgb(245, 62, 62);">Decline</button></td>
+
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>Shruti Gandhi</td>
+              <td>19it038@charusat.edu.in</td>
+              <td>9.90</td>
+              <td><a href="https://github.com/shrutigandhi" target="_blank">Shrutigandhi</a></td>
+              <td><button style="background-color: rgb(14, 238, 14);">Select</button><button
+                  style="background-color: rgb(245, 62, 62);">Decline</button></td>
+
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    function myFunction() {
+
+      if (confirm("Are you sure you want to sign out?")) {
+        window.location.href = "../main.html";
+      }
+
+      else {
+
+      }
+
+    }
+  </script>
+
+</body>
+
+</html>
